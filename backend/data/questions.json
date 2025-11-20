@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the capital of France?",
+    "choices": ["Berlin", "Madrid", "Paris", "Rome"],
+    "answer": "Paris"
+  },
+  {
+    "id": "q2",
+    "question": "Which language runs in a web browser?",
+    "choices": ["Python", "JavaScript", "C#", "Java"],
+    "answer": "JavaScript"
+  },
+  {
+    "id": "q3",
+    "question": "What does CPU stand for?",
+    "choices": ["Central Processing Unit", "Computer Personal Unit", "Central Power Unit", "Central Performance Utility"],
+    "answer": "Central Processing Unit"
+  },
+  {
+    "id": "q4",
+    "question": "Who invented the telephone?",
+    "choices": ["Alexander Graham Bell", "Albert Einstein", "Isaac Newton", "Nikola Tesla"],
+    "answer": "Alexander Graham Bell"
+  },
+  {
+    "id": "q5",
+    "question": "Which company created React?",
+    "choices": ["Google", "Meta (Facebook)", "Microsoft", "Netflix"],
+    "answer": "Meta (Facebook)"
+  },
+  {
+    "id": "q6",
+    "question": "HTML stands for?",
+    "choices": ["Hyper Trainer Marking Language", "HyperText Markup Language", "HyperText Markdown Language", "Hyper Transfer Markup Line"],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "id": "q7",
+    "question": "Which planet is known as the Red Planet?",
+    "choices": ["Mercury", "Earth", "Mars", "Jupiter"],
+    "answer": "Mars"
+  },
+  {
+    "id": "q8",
+    "question": "What is 15 + 27?",
+    "choices": ["32", "42", "40", "38"],
+    "answer": "42"
+  },
+  {
+    "id": "q9",
+    "question": "CSS is used for?",
+    "choices": ["Structuring the content", "Styling the content", "Database Management", "Server-side scripting"],
+    "answer": "Styling the content"
+  },
+  {
+    "id": "q10",
+    "question": "Which is the largest ocean on Earth?",
+    "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "answer": "Pacific Ocean"
+  }
+]

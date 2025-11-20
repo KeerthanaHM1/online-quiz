@@ -1,0 +1,129 @@
+/* Beautiful gradient background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #092c4f 0%, #183156 100%);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+/* Main Container */
+.container {
+  width: 1000px;
+  max-width: 750px;
+  background: #35b3cc;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0px); }
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Question Card */
+/* Question Card (Wider, Cleaner, Premium Style) */
+.card {
+  background: #2a5a8d;
+  padding: 25px;
+  border-radius: 18px;
+  margin-bottom: 28px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.10);
+  border-left: 6px solid #072a4a;
+  transition: 0.25s ease-in-out;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.18);
+}
+
+/* Question text styling */
+.card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #eceef0;
+  margin-bottom: 16px;
+}
+
+/* Multiple-choice options */
+.choices {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.choice {
+  background: #f4f7ff;
+  padding: 16px;
+  margin: 10px 0;
+  font-size: 17px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.25s ease;
+}
+
+.choice:hover {
+  background: #e6ecff;
+  border-color: #c6d0ff;
+  transform: translateX(5px);
+}
+
+/* When user selects an option */
+.selected {
+  background: #d8dfff !important;
+  border-color: #4c52ff !important;
+  box-shadow: 0 0 10px rgba(76, 82, 255, 0.4);
+  font-weight: 600;
+  transform: translateX(5px) scale(1.03);
+}
+/* Submit Button – Premium Style */
+.btn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #6a5cff 0%, #4c49ff 100%);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 25px;
+  letter-spacing: 0.8px;
+
+  /* Animation */
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 18px rgba(76, 73, 255, 0.35);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #4c49ff 0%, #6a5cff 100%);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(76, 73, 255, 0.55);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
