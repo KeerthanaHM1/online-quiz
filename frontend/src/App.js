@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import QuestionCard from "./components/QuestionCard";
 import ResultCard from "./components/ResultCard";
+
 import "./Quiz.css";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = process.env.REACT_APP_API;
 
 export default function App() {
   const [questions, setQuestions] = useState([]);
