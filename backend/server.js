@@ -88,4 +88,6 @@ app.post('/api/submit', (req, res) => {
 });
 
 // ------------------------------
-app.listen(4000, () => console.log("Quiz API running on http://localhost:4000"));
+const port = process.env.PORT || 4000;
+app.listen(port, () => console.log(`Quiz API running on port ${port}`));
+
